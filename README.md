@@ -24,15 +24,18 @@ cd gemini_realtime_speech_to_text
 2. Install dependencies:
 pip install -r requirements.txt
 
-3. Set up your Google API key:
-set GOOGLE_API_KEY=your-api-key-here
-CopyOr create a `.env` file in the project root with:
-GOOGLE_API_KEY=your-api-key-here
+3. Create an API key from https://aistudio.google.com/apikey
+
+Set the API key as an environment variable:
+set GOOGLE_API_KEY=your-api-key-here # Replace with your actual API key.
+
+Alternatively, create a .env file in the project root with:
+GOOGLE_API_KEY=your-api-key-here # Replace with your actual API key.
 
 ## Usage
 
 Run the script:
-python speech_translator.py
+python speech_to_text.py
 
 Follow the prompts to select your input device. The script will start recording audio in 5-second chunks, process them, and display translations in real-time.
 
