@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# Project specific
+temp_chunk.wav
+translation_output.txt
+.env
+*.env
+
+# Sensitive information
+*_key.*
+*_secret.*
+*_token.*
+*_password.*
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
