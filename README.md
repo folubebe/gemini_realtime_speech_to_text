@@ -1,6 +1,6 @@
 # Speech Translator
 
-A real-time speech translation tool using Google's Gemini API.
+A real-time speech to text translation tool using Google's Gemini API.
 
 ## Features
 - Continuous audio recording and processing
